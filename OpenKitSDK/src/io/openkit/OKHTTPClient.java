@@ -40,7 +40,9 @@ import org.json.JSONObject;
 
 public class OKHTTPClient {
 
-	/* Client SDK default parameters */
+	/** Client SDK default parameters
+	*In case you are hosting the server on your own, 
+	*change the URL to point to where it is located*/
 	public static final String DEFAULT_ENDPOINT = "http://api.gameeso.com/";
 	public static final String SERVER_API_VERSION = "v1";
 
